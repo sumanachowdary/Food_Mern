@@ -24,7 +24,7 @@ mongoose
   .connect(
     "mongodb+srv://sumanmalakar2022:yq9euydwXXgWfkaN@cluster0.kjapjji.mongodb.net/",
     {
-      dbName: "MERN_Recipe_YouTube",
+      dbName: "MERN_Recipe_YouTube"
     }
   )
   .then(() => console.log("MongoDB is Connected..!"))
